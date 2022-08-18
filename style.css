@@ -66,15 +66,18 @@ body{
     width: 100px;
     margin-left: 20px;
 }
-.opicoes{
+.opicoes {
     display: flex;
     align-self: center;
     color: white;
 }
 .a{
-    font-size: 20px;
+    text-decoration: none;
+    color: white; 
     margin-right: 50px;
+    font-size: 20px;
 }
+
 .container-principal{
     display: flex;
     justify-content: space-around;

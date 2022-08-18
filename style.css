@@ -48,19 +48,19 @@ table {
 	border-spacing: 0;
 }
 body{
-    background-color: aqua;
+    background-color: rgba(226, 226, 226, 0.418);
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     height: 90px;
-    background-color: red;
+    background-color: rgb(255, 81, 0);
 }
 .logo-nome{
     display: flex;
     align-items: center;
     font-size: 40px;
-    
+    color: white;
 }
 .logo{
     width: 100px;
@@ -73,7 +73,7 @@ body{
 }
 .a{
     font-size: 20px;
-    margin-right: 80px;
+    margin-right: 50px;
 }
 .container-principal{
     display: flex;
@@ -82,26 +82,31 @@ body{
 }
 
 .container1{
-    padding: 9px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 9px;
     width: 500px;
     background-color: azure;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.411);
 }
 .container2{
-    padding: 9px ;
-    border: 1px solid black;
-    border-radius: 5px;
+    
+    border-radius: 9px;
     width: 611px;
     background-color: azure;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.411);
+}
+.arredonda{
+    width: 500px;
+    border-radius: 9px;
 }
 .titulo {
-    margin-top: 2px;
+    margin: 3px 3px;
     font-size: 20px;
 }
 .texto{
-    margin-top: 15px;
-    width: 100%;
+
+    margin: 15px 3px;
+    width: 99%;
+    
 }
 .lasanha{
     width: 500px;

@@ -47,6 +47,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+    background-color: aqua;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -79,22 +82,25 @@ table {
 }
 
 .container1{
-    padding: 6px;
+    padding: 9px;
     border: 1px solid black;
     border-radius: 5px;
     width: 500px;
+    background-color: azure;
 }
 .container2{
-    padding: 6px ;
+    padding: 9px ;
     border: 1px solid black;
     border-radius: 5px;
     width: 611px;
+    background-color: azure;
 }
 .titulo {
+    margin-top: 2px;
     font-size: 20px;
 }
 .texto{
-
+    margin-top: 15px;
     width: 100%;
 }
 .lasanha{

@@ -49,6 +49,7 @@ table {
 }
 body{
     background-color: rgba(226, 226, 226, 0.418);
+    height: 100vh;
 }
 .navbar{
     display: flex;
@@ -79,9 +80,11 @@ body{
 }
 
 .container-principal{
+    width: 100%;
+    height: 87%;
     display: flex;
     justify-content: space-around;
-    margin-top: 10%;
+    align-items: center;
     flex-wrap: wrap; 
 }
 a{
@@ -125,6 +128,7 @@ a{
 }
 .footer{
     color: rgba(59, 59, 59, 0.808);
+    margin: 0 1%;
     margin-top: 9%;
     margin-right: 0.5%;
     text-align: end;

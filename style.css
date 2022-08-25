@@ -96,14 +96,19 @@ a{
     width: 500px;
     background-color: azure;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.411);
+    transition: .6s;
+}
+.scala:hover{
+    scale: 1.2;
 }
 .container2{
     
     border-radius: 9px;
     width: 500px;
-    height:483.91px;
+    height: 483.91px;
     background-color: azure;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.411);
+    transition: .6s;
 }
 .arredonda{
     width: 500px;

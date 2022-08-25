@@ -99,7 +99,11 @@ a{
     transition: .6s;
 }
 .scala:hover{
+<<<<<<< HEAD
     scale: 1.15;
+=======
+    scale: 1.2;
+>>>>>>> c4c9971dbcf0bb0212ad03fcc9dee346772d9cf1
 }
 .container2{
     
